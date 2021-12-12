@@ -12,9 +12,11 @@
         <h1>Meme Generator!</h1>
     </header>
     <section id="meme-image-container">
-        <input id="text-input" type="text" value="" placeholder="Digite seu texto aqui!" >
+        <input id="text-input" type="text" value="" placeholder="Digite seu texto aqui!" maxlength="60" >
         <input id="meme-insert" type="file" accept="image/*" onchange="carregaImagem(event)">
-        <img id="meme-image" src="https://www.rbsdirect.com.br/imagesrc/35569751.jpg" alt="Aqui gera as imagens">
+        <div id="meme-image">
+            <img id="image-input" src="https://blogs.opovo.com.br/id/wp-content/uploads/sites/61/2019/09/meme.png" alt="Aqui gera as imagens">
+        </div>
         <div>
             <h3 id="meme-text"></h3>
         </div>
