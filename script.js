@@ -3,9 +3,10 @@ const textInput = document.querySelector('#text-input');
 textInput.onkeyup = () => {
   document.querySelector('#meme-text').innerHTML = textInput.value;
 };
+// Retirei a ideia do onkeyUp daqui https://stackoverflow.com/questions/14411235/while-typing-in-a-text-input-field-printing-the-content-typed-in-a-div
 
 const carregaImagem = (event) => {
-  const imagem = document.getElementById('image-input');
+  const imagem = document.getElementById('meme-image');
   imagem.src = URL.createObjectURL(event.target.files[0]);
 };
 

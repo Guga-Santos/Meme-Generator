@@ -5,17 +5,26 @@ body {
   flex-direction: column;
 }
 
-#meme-image-container {
-  width: fit-content;
+#container {
+    width: fit-content;
   height: fit-content;
   border: 1px black solid;
   position: relative;
   background-color: white;
 }
 
-#meme-image {
+#meme-image-container {
   width: fit-content;
   height: fit-content;
+  border: 1px black solid;
+  position: relative;
+  background-color: white;
+  margin: auto;
+}
+
+#meme-image {
+    width: 280px;
+    height: 280px;
   display: block;
   margin: auto;
   position: relative;
