@@ -38,9 +38,29 @@ body {
 
 #meme-text {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 10px;
-  color: rgb(255 , 255 , 255);
+  color: white;
   font-size: 30px;
   text-shadow: black 5px 5px 5px;
+}
+
+.bordas {
+  height: 30px;
+  width: 31%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
 }
