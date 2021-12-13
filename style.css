@@ -6,23 +6,17 @@ body {
 }
 
 #GrandeSessao {
-width: fit-content;
-display: flex;
+  width: fit-content;
+  display: flex;
 }
 
 #preImage-container {
-    display: inline-block;
-}
-
-.memesProntos {
-    width: 100px;
-    height: 99px;
-    border: 1px black solid;
+  display: inline-block;
 }
 
 #container {
-    display: inline-block;
-    width: fit-content;
+  display: inline-block;
+  width: fit-content;
   height: fit-content;
   border: 1px black solid;
   position: relative;
@@ -39,8 +33,8 @@ display: flex;
 }
 
 #meme-image {
-    width: 280px;
-    height: 280px;
+  width: 280px;
+  height: 280px;
   display: block;
   margin: auto;
   position: relative;
@@ -88,4 +82,30 @@ display: flex;
 
 #earth {
   background-color: green;
+}
+
+.memesProntos {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+#meme-1 {
+  width: 100px;
+  height: 95px;
+}
+
+#meme-2 {
+  width: 100px;
+  height: 95px;
+}
+
+#meme-3 {
+  width: 100px;
+  height: 95px;
+}
+
+#meme-4 {
+  width: 100px;
+  height: 95px;
 }

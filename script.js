@@ -31,3 +31,9 @@ waterButton.addEventListener('click', () => {
 earthButton.addEventListener('click', () => {
   imageContainer.style.border = '6px groove green';
 });
+
+const memesPronto = document.querySelector('#preImage-container');
+memesPronto.addEventListener('click', (e) => {
+  const img = document.getElementById('meme-image');
+  img.src = e.target.src;
+});
