@@ -5,7 +5,23 @@ body {
   flex-direction: column;
 }
 
+#GrandeSessao {
+width: fit-content;
+display: flex;
+}
+
+#preImage-container {
+    display: inline-block;
+}
+
+.memesProntos {
+    width: 100px;
+    height: 99px;
+    border: 1px black solid;
+}
+
 #container {
+    display: inline-block;
     width: fit-content;
   height: fit-content;
   border: 1px black solid;
