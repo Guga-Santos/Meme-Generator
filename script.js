@@ -5,9 +5,14 @@ textInput.onkeyup = () => {
 };
 // Retirei a ideia do onkeyUp daqui https://stackoverflow.com/questions/14411235/while-typing-in-a-text-input-field-printing-the-content-typed-in-a-div
 
-const carregaImagem = (event) => {
-  const imagem = document.getElementById('meme-image');
-  imagem.src = URL.createObjectURL(event.target.files[0]);
+// const carregaImagem = (event) => {
+//   const imagem = document.getElementById('meme-image');
+//   imagem.src = URL.createObjectURL(event.target.files[0]);
+// };
+
+function carregaImagem(event) {
+	var image = document.getElementById('meme-image');
+	image.src = URL.createObjectURL(event.target.files[0]);
 };
 
 //  Retirei a ideia de fazer o upload da imagem daqui:
